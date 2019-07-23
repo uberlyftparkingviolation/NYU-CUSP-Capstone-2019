@@ -7,7 +7,10 @@
 - [ETL3_tickets2_geocoding.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_tickets2_geocoding.ipynb): Converted 350 thousand street names into coordinates through Google Geocoding API.
 - [ETL3_tickets3_taxi zone.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_tickets3_taxi%20zone.ipynb): Mapped the coordinates into taxi zones with R-tree method with Spark.
 - [ETL4 data integrating.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL4%20data%20integrating.ipynb): Integrated and output all datasets through spatial/ temporal dimension.
-- [Preliminary Analysis.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Preliminary%20Analysis.ipynb): Time series analysis for the whole NYC and every taxi zone; Correlation analysis between parking ticket and FHV trips for the whole NYC; Correlation analysis for every taxi zone.
+- [Preliminary Analysis.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Preliminary%20Analysis.ipynb):
+  - Time series analysis for the whole NYC and every taxi zone;
+  - Correlation analysis between parking ticket and FHV trips for the whole NYC;
+  -  Correlation analysis for every taxi zone.
 - [Modeling1_OLS.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modeling1_OLS.ipynb): Multivariate linear regression modeling trial on temporal datasets.
 - [Modeling2_Fixed Effect Model & Bayesian Nework.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modeling2_Fixed%20Effect%20Model%20%26%20Bayesian%20Nework.ipynb): Fixed Effect Modeling & Bayesian Nework Modeling
 
