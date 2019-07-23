@@ -27,8 +27,8 @@
     - Correlation analysis for every taxi zone
 - **Modelling**
   - [OLS](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling1_OLS.ipynb): Multivariate linear regression modeling trial on temporal datasets.
-  - [Fixed Effect Model & Bayesian Nework](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling2_FEM_BN.ipynb): Fixed Effect Modeling & Bayesian Nework Modeling
-  - [Difference in differences](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling3_DID.ipynb): Fixed Effect Modeling & Bayesian Nework Modeling
+  - [Fixed Effect Model & Bayesian Nework Model](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling2_FEM_BN.ipynb)
+  - [Difference in differences](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling3_DID.ipynb)
 
 # Datasets
 ## Temporal Datasets
