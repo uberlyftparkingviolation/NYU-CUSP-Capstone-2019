@@ -26,32 +26,20 @@
 - Additional Data
 
 | Temporal Data | Spatial Data | Potential Data |
-| ------ | ------ | ------ |
-| Weather, Holiday, Weekdays | ACS, Crime, Transportation, Education and Parking Facilities | Events, BBL, Park, Parking Regulation Locations and Signs, Meter parking price, Garage parking price, Google POI and Yelp |
+| ------- | ------ | ------ |
+| Weather, Holiday and Weekdays | ACS, Crime, Transportation, Education and Parking Facilities | Events, BBL, Park, Parking Regulation Locations and Signs, Meter parking price, Garage parking price, Google POI and Yelp |
 
-#### ACS Census
-- 'DensityPop': Population Density
-- 'IncomePerCap': Income per capita ($)
-- 'Poverty': % under poverty level rate
-- 'Professional': % employed in management, business, science, and arts
-- 'Service': % employed in service jobs
-- 'Office': % employed in sales and office jobs
-- 'Construction': % employed in natural resources, construction, and maintenance
-- 'Production': % employed in production, transportation, and material movement
-- 'Employed': % employed rate (16+)
-- 'Unemployment': % Unemployment rate
-- 'Drive': % commuting alone in a car, van, or truck
-- 'Carpool': % carpooling in a car, van, or truck
-- 'Transit': % commuting on public transportation
-- 'Walk': % walking to work
-- 'OtherTransp': % commuting via other means
-- 'WorkAtHome': % working at home
-- 'MeanCommuteMean': commute time (minutes)
+**ACS** Notation
 
-#### Crime
-- 'FELONY': Number of felony crimes in the taxi zone
-- 'VIOLATION': Number of violation crimes in the taxi zone
-- 'MISDEMEANOR': Number of misdemeanor crimes in the taxi zone
+| DensityPop | IncomePerCap | Poverty | Professional | Service | Office | Construction | Production | Employed | Unemployment | Drive | Carpool | Transit | Walk | OtherTransp | WorkAtHome | MeanCommuteMean |
+| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| Population Density | Income per capita ($) | % under poverty level rate | % employed in management, business, science, and arts | % employed in service jobs | % employed in sales and office jobs | % employed in natural resources, construction, and maintenance | % employed in production, transportation, and material movement | % employed rate (16+) | % Unemployment rate | % commuting alone in a car, van, or truck | % carpooling in a car, van, or truck | % commuting on public transportation | % walking to work | % commuting via other means | % working at home | commute time (minutes) |
+
+**Crime** Notation
+
+| FELONY | VIOLATION | MISDEMEANOR |
+| ------- | ------ | ------ |
+| Number of felony crimes in the taxi zone | Number of violation crimes in the taxi zone | Number of misdemeanor crimes in the taxi zone |
 
 #### Transportation
 - 'subway': Number of subway entrances
