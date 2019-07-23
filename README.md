@@ -29,28 +29,24 @@
 | ------- | ------ | ------ |
 | Weather, Holiday and Weekdays | ACS, Crime, Transportation, Education and Parking Facilities | Events, BBL, Park, Parking Regulation Locations and Signs, Meter parking price, Garage parking price, Google POI and Yelp |
 
-**ACS** Notation
+**ACS** details
 
 | DensityPop | IncomePerCap | Poverty | Professional | Service | Office | Construction | Production | Employed | Unemployment | Drive | Carpool | Transit | Walk | OtherTransp | WorkAtHome | MeanCommuteMean |
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | Population Density | Income per capita ($) | % under poverty level rate | % employed in management, business, science, and arts | % employed in service jobs | % employed in sales and office jobs | % employed in natural resources, construction, and maintenance | % employed in production, transportation, and material movement | % employed rate (16+) | % Unemployment rate | % commuting alone in a car, van, or truck | % carpooling in a car, van, or truck | % commuting on public transportation | % walking to work | % commuting via other means | % working at home | commute time (minutes) |
 
-**Crime** Notation
+**Crime** details
 
 | FELONY | VIOLATION | MISDEMEANOR |
 | ------- | ------ | ------ |
 | Number of felony crimes in the taxi zone | Number of violation crimes in the taxi zone | Number of misdemeanor crimes in the taxi zone |
 
-#### Transportation
-- 'subway': Number of subway entrances
-- 'bus': Number of bus stops
+**Transportation, Parking Facilities and Education** details
 
-#### Education
-- 'sat': Average score of SAT reading, math, and writing.
+| subway | bus | meter | parkinglot | sat |
+| ------- | ------ | ------ | ------ | ------ |
+| Number of subway entrances | Number of bus stops | Number of merter parking | Area of parking lot| Average score of SAT reading, math, and writing |
 
-#### Parking
-- 'meter': Number of merter parking.
-- 'parkinglot': Area of parking lot.
 ## Step 3: Data Integration
 - [Data Integration](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL4_Data_Integrating.ipynb):
   - Collected and processed influencing factor datasets, including ACS Census, Crime, Transportation, Education, and Parking data
