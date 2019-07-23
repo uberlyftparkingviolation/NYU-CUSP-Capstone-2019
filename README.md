@@ -77,12 +77,12 @@
 - [Data Integration](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL4_Data_Integrating.ipynb):
   - Collected and processed influencing factor datasets, including ACS Census, Crime, Transportation, Education, and Parking data
   - Integrated and output all datasets through spatial/ temporal dimension
-- **Data Analytics**
-  - [Preliminary Analysis](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Preliminary%20Analysis.ipynb):
-    - Time series analysis for the whole NYC and every taxi zone
-    - Correlation analysis between parking ticket and FHV trips for the whole NYC
-    - Correlation analysis for every taxi zone
-- **Modelling**
-  - [OLS](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modeling1_OLS.ipynb): Multivariate linear regression modeling trial on temporal datasets.
-  - [Fixed Effect & Bayesian Nework](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling2_FEM_BN.ipynb): Fixed Effect Modelling & Bayesian Nework Modelling
-  - [Difference in differences](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling3_DID.ipynb): Mimic the design of experimental research, studying the differential effect of Uber/Lyft on NYC's parking violation
+## Step 4: Data Analytics
+- [Preliminary Analysis](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Preliminary%20Analysis.ipynb):
+  - Time series analysis for the whole NYC and every taxi zone
+  - Correlation analysis between parking ticket and FHV trips for the whole NYC
+  - Correlation analysis for every taxi zone
+## Step 5: Modelling
+- [OLS](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modeling1_OLS.ipynb): Multivariate linear regression modeling trial on temporal datasets.
+- [Fixed Effect & Bayesian Nework](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling2_FEM_BN.ipynb): Fixed Effect Modelling & Bayesian Nework Modelling
+- [Difference in differences](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling3_DID.ipynb): Mimic the design of experimental research, studying the differential effect of Uber/Lyft on NYC's parking violation
