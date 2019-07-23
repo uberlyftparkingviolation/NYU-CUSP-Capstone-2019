@@ -6,7 +6,9 @@
 - [ETL3_tickets1_street name.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_tickets1_street%20name.ipynb): Filtered and grouped ticket data with Spark.
 - [ETL3_tickets2_geocoding.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_tickets2_geocoding.ipynb): Converted 350 thousand street names into coordinates through Google Geocoding API.
 - [ETL3_tickets3_taxi zone.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_tickets3_taxi%20zone.ipynb): Mapped the coordinates into taxi zones with R-tree method with Spark.
-- [ETL4 data integrating.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL4%20data%20integrating.ipynb): Collected and processed influencing factor datasets, including ACS Census, Crime, Transportation, Education, and Parking data; integrated and output all datasets through spatial/ temporal dimension.
+- [ETL4 data integrating.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL4%20data%20integrating.ipynb):
+  - Collected and processed influencing factor datasets, including ACS Census, Crime, Transportation, Education, and Parking data;
+  - Integrated and output all datasets through spatial/ temporal dimension.
 - [Preliminary Analysis.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Preliminary%20Analysis.ipynb):
   - Time series analysis for the whole NYC and every taxi zone;
   - Correlation analysis between parking ticket and FHV trips for the whole NYC;
