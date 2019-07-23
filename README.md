@@ -27,7 +27,7 @@
 
 | Temporal Data | Spatial Data | Potential Data |
 | ------- | ------ | ------ |
-| Weather, Holiday and Weekdays | ACS, Crime, Transportation, Education and Parking Facilities | Events, BBL, Park, Parking Regulation Locations and Signs, Meter parking price, Garage parking price, Google POI and Yelp |
+| Weather, Holiday and Weekdays | **ACS, Crime, Transportation, Education and Parking Facilities** | Events, BBL, Park, Parking Regulation Locations and Signs, Meter parking price, Garage parking price, Google POI and Yelp |
 
 **ACS** details
 
