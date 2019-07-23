@@ -16,19 +16,17 @@
   - [Street Name](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets1_StreetName.ipynb): Filtered and grouped ticket data with Spark
   - [Geocoding](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets2_Geocoding.ipynb): Converted 350 thousand street names into coordinates through Google Geocoding API.
   - [Taxi Zone](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets3_TaxiZone.ipynb): Mapped the coordinates into taxi zones with R-tree method with Spark
-- Additional Data
-  - Temporal Datasets
-
-|  | Weather | Holiday | Weekdays | Events (Potential) |
-| ------ | ------ | ------ | -- | -- |
-| Example | None | None | None | None |
-
-  - Spatial Datasets
-#### Taxi Zone Attributes
+  #### Taxi Zone Attributes
 - 'OBJECTID'/ 'LocationID': Taxi zone ID
 - 'Shape_Leng': Taxi zone length
 - 'Shape_Area': Taxi zone area
 - 'borough': NYC borough number
+
+- Additional Data
+
+| Temporal Data | Spatial Data | Potential Data |
+| ------ | ------ | ------ |
+| Weather, Holiday, Weekdays | ACS, Crime, Transportation, Education and Parking Facilities | Events, BBL, Park, Parking Regulation Locations and Signs, Meter parking price, Garage parking price, Google POI and Yelp |
 
 #### ACS Census
 - 'DensityPop': Population Density
@@ -64,15 +62,6 @@
 #### Parking
 - 'meter': Number of merter parking.
 - 'parkinglot': Area of parking lot.
-
-#### Potential Datasets
-- BBL
-- Park
-- Parking Regulation Locations and Signs
-- Meter parking price
-- Garage parking price
-- Google POI
-- Yelp
 ## Step 3: Data Integration
 - [Data Integration](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL4_Data_Integrating.ipynb):
   - Collected and processed influencing factor datasets, including ACS Census, Crime, Transportation, Education, and Parking data
