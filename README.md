@@ -10,14 +10,14 @@
 # Usage
 ## Step 1: Data Collection
 - [Data Collection](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL1_Data_Collection.ipynb): Developed a pipeline to collect all the 42-month FHV and 6-year parking ticket datasets
-## Step 2: Data Wrangling
+## Step 2: Data Preprocessing
 - Basic Geo-unit of all data: taxi zone
 
 | OBJECTID / LocationID | Shape_Leng | Shape_Area | borough |
 | ------ | ------ | ------ | ------ |
 | Taxi zone ID | Taxi zone length | Taxi zone area | NYC borough number |
 
-- [Uber & Lyft Data](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL2_FHV_UberLyft.ipynb): Filtered and grouped the Uber/Lyft trips from FHV trips with Spark.
+- [Uber & Lyft Data](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL2_FHV_UberLyft.ipynb): Filtered and grouped the Uber/Lyft trips by taxi zones from FHV trips with Spark.
 - Tickets Data
   - [Street Name](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets1_StreetName.ipynb): Filtered and grouped ticket data with Spark
   - [Geocoding](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets2_Geocoding.ipynb): Converted 350 thousand street names into coordinates through Google Geocoding API
