@@ -1,7 +1,7 @@
 # NYU-CUSP-Capstone-2019
 
 # Notebooks
-• Developed a pipeline to collect all the 42-month FHV and 6-year parking ticket datasets.
+[ETL1_data collection.ipynb](http://docs.python-requests.org/en/master/): Developed a pipeline to collect all the 42-month FHV and 6-year parking ticket datasets.
 •	Filtered and grouped the Uber/Lyft trips from FHV trips with Spark for parallel computation.
 •	Filtered and grouped ticket data.
 •	Converted 350 thousand street names into coordinates through Google Geocoding API.
