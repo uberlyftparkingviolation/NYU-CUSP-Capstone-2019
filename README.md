@@ -1,6 +1,7 @@
 # NYU-CUSP-Capstone-2019
 - This is our capstone projects of NYU CUSP 2019. The topic is: Does Uber/Lyft reduce parking violations in NYC?
 - Group member: [Junjie Cai](https://github.com/JunjieTsai), [Junru Lu](https://github.com/LuJunru), [Pranay Anchan](https://github.com/pranay-anchan), [Shijia Gu](https://github.com/sg5718) and [Yuxuan Wang](jasonwang1031@gmail.com)
+- Sponsor & Supervisor: [Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo)
 - Please refer to our website for more [visualizations](http://uberlyftparkingviolation.github.io/)
 
 # Problem Definition
