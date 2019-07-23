@@ -10,10 +10,10 @@
 # Usage
 ## Datasets
 ### Temporal Datasets
-- Weather
-- Holiday
-- Weekdays
-- Events (Potential)
+
+|  | Weather | Holiday | Weekdays | Events (Potential) |
+| ------ | ------ | ------ | -- | -- |
+| Example | None | None | None | None |
 
 ### Spatial Datasets
 #### Taxi Zone Attributes
