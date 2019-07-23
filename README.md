@@ -8,7 +8,7 @@
 - The fast expansion of Uber and Lyft result in people suspecting these companies' effect on our urban system, for example, on public transportation and city congestion. However, due to the lack of open data and scientific research, most of its influence has not been proven yet.
 - This capstone project aims to explore one potential Uber/Lyft’s impact: whether daily Uber/Lyft trips affect parking violations. NYC daily Uber/Lyft trip and parking ticket data are collected and correlated by taxi cab zone. Three technical models, Fixed Effects, Difference in Difference (DID), and Bayesian Network, are applied on the prepared data. The results of these models show the negative correlation and causal effect between the number of Uber/Lyft trips and parking tickets, suggesting Uber/Lyft help in reducing parking violations in NYC. Given the controversial issues around TNC, this capstone project can assisting in understanding impact of Uber/Lyft and offer policy insight to the TNC regulation.
 
-# Usage
+# Codes
 - **Data Engineering**
   - [Data Collection](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL1_Data_Collection.ipynb): Developed a pipeline to collect all the 42-month FHV and 6-year parking ticket datasets
   - Data Preparation
@@ -20,12 +20,15 @@
   - [Data Integration](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL4_Data_Integrating.ipynb):
     - Collected and processed influencing factor datasets, including ACS Census, Crime, Transportation, Education, and Parking data
     - Integrated and output all datasets through spatial/ temporal dimension
-- **[Preliminary Analysis](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Preliminary%20Analysis.ipynb)**:
-  - Time series analysis for the whole NYC and every taxi zone
-  - Correlation analysis between parking ticket and FHV trips for the whole NYC
-  - Correlation analysis for every taxi zone
-- [Modeling1_OLS.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modeling1_OLS.ipynb): Multivariate linear regression modeling trial on temporal datasets.
-- [Modeling2_Fixed Effect Model & Bayesian Nework.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modeling2_Fixed%20Effect%20Model%20%26%20Bayesian%20Nework.ipynb): Fixed Effect Modeling & Bayesian Nework Modeling
+- **Data Analytics**
+  - [Preliminary Analysis](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Preliminary%20Analysis.ipynb):
+    - Time series analysis for the whole NYC and every taxi zone
+    - Correlation analysis between parking ticket and FHV trips for the whole NYC
+    - Correlation analysis for every taxi zone
+- **Modelling**
+  - [OLS](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling1_OLS.ipynb): Multivariate linear regression modeling trial on temporal datasets.
+  - [Fixed Effect Model & Bayesian Nework](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling2_FEM_BN.ipynb): Fixed Effect Modeling & Bayesian Nework Modeling
+  - [Difference in differences](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling3_DID.ipynb): Fixed Effect Modeling & Bayesian Nework Modeling
 
 # Datasets
 ## Temporal Datasets
