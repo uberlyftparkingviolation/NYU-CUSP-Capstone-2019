@@ -32,9 +32,17 @@
 
 **ACS** details
 
-| DensityPop | IncomePerCap | Poverty | Professional | Service | Office | Construction | Production | Employed | Unemployment | Drive | Carpool | Transit | Walk | OtherTransp | WorkAtHome | MeanCommuteMean |
-| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| Population Density | Income per capita ($) | % under poverty level rate | % employed in management, business, science, and arts | % employed in service jobs | % employed in sales and office jobs | % employed in natural resources, construction, and maintenance | % employed in production, transportation, and material movement | % employed rate (16+) | % Unemployment rate | % commuting alone in a car, van, or truck | % carpooling in a car, van, or truck | % commuting on public transportation | % walking to work | % commuting via other means | % working at home | commute time (minutes) |
+| DensityPop | IncomePerCap | Poverty | Professional | Service | Office |
+| ---------- | ------------ | ------- | ------------ | ------- | ------ |
+| Population Density | Income per capita ($) | % under poverty level rate | % employed in management, business, science, and arts | % employed in service jobs | % employed in sales and office jobs |
+
+| Production | Employed | Unemployment | Drive | Carpool | Transit | Walk |
+| ---------- | -------- | ------------ | ----- | ------- | ------- | ---- |
+| % employed in production, transportation, and material movement | % employed rate (16+) | % Unemployment rate | % commuting alone in a car, van, or truck | % carpooling in a car, van, or truck | % commuting on public transportation | % walking to work |
+
+| OtherTransp | WorkAtHome | MeanCommuteMean | Construction |
+| ----------- | ---------- | --------------- | ------------ |
+| % commuting via other means | % working at home | commute time (minutes) | % employed in natural resources, construction, and maintenance |
 
 **Crime** details
 
