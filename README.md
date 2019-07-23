@@ -1,7 +1,15 @@
 # NYU-CUSP-Capstone-2019
 
 # Notebooks
+• Developed a pipeline to collect all the 42-month FHV and 6-year parking ticket datasets.
+•	Filtered and grouped the Uber/Lyft trips from FHV trips with Spark for parallel computation.
+•	Filtered and grouped ticket data.
+•	Converted 350 thousand street names into coordinates through Google Geocoding API.
+•	Map the coordinates into taxi zones with R-tree method.
 
+•	Time series analysis for the whole NYC and every taxi zone
+•	Correlation analysis between parking ticket and FHV trips for the whole NYC.
+•	Correlation analysis for every taxi zone.
 
 # Datasets
 ## Temporal Datasets
