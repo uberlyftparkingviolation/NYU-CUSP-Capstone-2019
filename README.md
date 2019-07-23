@@ -70,7 +70,7 @@
 - **Data Engineering**
   - [Data Collection](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL1_Data_Collection.ipynb): Developed a pipeline to collect all the 42-month FHV and 6-year parking ticket datasets
   - Data Preparation
-    - [Uber & Lyft Data](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL2_FHV_UberLyft.ipynb): Filtered and grouped the Uber/Lyft trips from FHV trips with Spark for parallel computation.
+    - [Uber & Lyft Data](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL2_FHV_UberLyft.ipynb): Filtered and grouped the Uber/Lyft trips from FHV trips with Spark
     - Tickets Data
       - [Street Name](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets1_StreetName.ipynb): Filtered and grouped ticket data with Spark
       - [Geocoding](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets2_Geocoding.ipynb): Converted 350 thousand street names into coordinates through Google Geocoding API.
@@ -86,4 +86,4 @@
 - **Modelling**
   - [OLS](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modeling1_OLS.ipynb): Multivariate linear regression modeling trial on temporal datasets.
   - [Fixed Effect & Bayesian Nework](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling2_FEM_BN.ipynb): Fixed Effect Modelling & Bayesian Nework Modelling
-  - [Difference in differences](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling3_DID.ipynb): Mimic the design of experimental research, studying the differential effect of Uber/Lyft on NYC's parking violation.
+  - [Difference in differences](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling3_DID.ipynb): Mimic the design of experimental research, studying the differential effect of Uber/Lyft on NYC's parking violation
