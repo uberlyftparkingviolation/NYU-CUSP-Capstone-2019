@@ -14,13 +14,12 @@
 - [Uber & Lyft Data](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL2_FHV_UberLyft.ipynb): Filtered and grouped the Uber/Lyft trips from FHV trips with Spark
 - Tickets Data
   - [Street Name](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets1_StreetName.ipynb): Filtered and grouped ticket data with Spark
-  - [Geocoding](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets2_Geocoding.ipynb): Converted 350 thousand street names into coordinates through Google Geocoding API.
-  - [Taxi Zone](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets3_TaxiZone.ipynb): Mapped the coordinates into taxi zones with R-tree method with Spark
-  #### Taxi Zone Attributes
-- 'OBJECTID'/ 'LocationID': Taxi zone ID
-- 'Shape_Leng': Taxi zone length
-- 'Shape_Area': Taxi zone area
-- 'borough': NYC borough number
+  - [Geocoding](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets2_Geocoding.ipynb): Converted 350 thousand street names into coordinates through Google Geocoding API
+  - [Taxi Zone](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL3_Tickets3_TaxiZone.ipynb): Mapped the coordinates into taxi zones with R-tree method with Spark. Attributes of this data are shown below:
+
+| OBJECTID / LocationID | Shape_Leng | Shape_Area | borough |
+| ------ | ------ | ------ | ------ |
+| Taxi zone ID | Taxi zone length | Taxi zone area | NYC borough number |
 
 - Additional Data
 
