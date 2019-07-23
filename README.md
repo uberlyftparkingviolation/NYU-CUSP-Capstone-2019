@@ -2,10 +2,10 @@
 
 # Datasets
 ## Temporal Datasets
-### Weather
-### Holiday
-### Weekdays
-### Events (Potential)
+- Weather
+- Holiday
+- Weekdays
+- Events (Potential)
 
 ## Spatial Datasets
 ### Taxi Zone Attributes
