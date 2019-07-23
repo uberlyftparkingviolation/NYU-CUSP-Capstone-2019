@@ -4,11 +4,11 @@
 - Sponsor & Supervisor: [Zhan Guo](https://wagner.nyu.edu/community/faculty/zhan-guo)
 - Please refer to our website for more [visualizations](http://uberlyftparkingviolation.github.io/)
 
-# Problem Definition
+## Problem Definition
 - The fast expansion of Uber and Lyft result in people suspecting these companies' effect on our urban system, for example, on public transportation and city congestion. However, due to the lack of open data and scientific research, most of its influence has not been proven yet.
 - This capstone project aims to explore one potential Uber/Lyft’s impact: whether daily Uber/Lyft trips affect parking violations. NYC daily Uber/Lyft trip and parking ticket data are collected and correlated by taxi cab zone. Three technical models, Fixed Effects, Difference in Difference (DID), and Bayesian Network, are applied on the prepared data. The results of these models show the negative correlation and causal effect between the number of Uber/Lyft trips and parking tickets, suggesting Uber/Lyft help in reducing parking violations in NYC. Given the controversial issues around TNC, this capstone project can assisting in understanding impact of Uber/Lyft and offer policy insight to the TNC regulation.
 
-# Codes
+## Codes
 - **Data Engineering**
   - [Data Collection](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL1_Data_Collection.ipynb): Developed a pipeline to collect all the 42-month FHV and 6-year parking ticket datasets
   - Data Preparation
@@ -26,25 +26,25 @@
     - Correlation analysis between parking ticket and FHV trips for the whole NYC
     - Correlation analysis for every taxi zone
 - **Modelling**
-  - [OLS](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling1_OLS.ipynb): Multivariate linear regression modeling trial on temporal datasets.
+  - [OLS](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modeling1_OLS.ipynb): Multivariate linear regression modeling trial on temporal datasets.
   - [Fixed Effect & Bayesian Nework](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling2_FEM_BN.ipynb): Fixed Effect Modelling & Bayesian Nework Modelling
   - [Difference in differences](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Modelling3_DID.ipynb): Mimic the design of experimental research, studying the differential effect of Uber/Lyft on NYC's parking violation.
 
-# Datasets
-## Temporal Datasets
+## Datasets
+### Temporal Datasets
 - Weather
 - Holiday
 - Weekdays
 - Events (Potential)
 
-## Spatial Datasets
-### Taxi Zone Attributes
+### Spatial Datasets
+#### Taxi Zone Attributes
 - 'OBJECTID'/ 'LocationID': Taxi zone ID
 - 'Shape_Leng': Taxi zone length
 - 'Shape_Area': Taxi zone area
 - 'borough': NYC borough number
 
-### ACS Census
+#### ACS Census
 - 'DensityPop': Population Density
 - 'IncomePerCap': Income per capita ($)
 - 'Poverty': % under poverty level rate
@@ -55,7 +55,6 @@
 - 'Production': % employed in production, transportation, and material movement
 - 'Employed': % employed rate (16+)
 - 'Unemployment': % Unemployment rate
-
 - 'Drive': % commuting alone in a car, van, or truck
 - 'Carpool': % carpooling in a car, van, or truck
 - 'Transit': % commuting on public transportation
@@ -64,23 +63,23 @@
 - 'WorkAtHome': % working at home
 - 'MeanCommuteMean': commute time (minutes)
 
-### Crime
+#### Crime
 - 'FELONY': Number of felony crimes in the taxi zone
 - 'VIOLATION': Number of violation crimes in the taxi zone
 - 'MISDEMEANOR': Number of misdemeanor crimes in the taxi zone
 
-### Transportation
+#### Transportation
 - 'subway': Number of subway entrances
 - 'bus': Number of bus stops
 
-### Education
+#### Education
 - 'sat': Average score of SAT reading, math, and writing.
 
-### Parking
+#### Parking
 - 'meter': Number of merter parking.
 - 'parkinglot': Area of parking lot.
 
-### Potential Datasets
+#### Potential Datasets
 - BBL
 - Park
 - Parking Regulation Locations and Signs
