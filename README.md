@@ -10,7 +10,7 @@
 # Usage
 ## Step 1: Data Collection
 - [Data Collection](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL1_Data_Collection.ipynb): Developed a pipeline to collect all the 42-month FHV and 6-year parking ticket datasets
-- Note: all data is open on the Internet. For every data, we've provided either the link or the intermediated form 
+- Note: all data is open on the Internet. For every data, we've provided either the link or the intermediated form transformed by us. Also, feel free to change data pathes when re-using these codes, as the data may be called differently in our notebooks
 ## Step 2: Data Preprocessing
 - Basic Geo-unit of all data: taxi zone
 
