@@ -1,19 +1,20 @@
 # NYU-CUSP-Capstone-2019
 
-# Temporal Datasets
-## Weather
-## Holiday
-## Weekdays
-## Events (Potential)
+# Datasets
+## Temporal Datasets
+### Weather
+### Holiday
+### Weekdays
+### Events (Potential)
 
-# Spatial Datasets
-## Taxi Zone Attributes
+## Spatial Datasets
+### Taxi Zone Attributes
 - 'OBJECTID'/ 'LocationID': Taxi zone ID
 - 'Shape_Leng': Taxi zone length
 - 'Shape_Area': Taxi zone area
 - 'borough': NYC borough number
 
-## ACS Census
+### ACS Census
 - 'DensityPop': Population Density
 - 'IncomePerCap': Income per capita ($)
 - 'Poverty': % under poverty level rate
@@ -33,23 +34,23 @@
 - 'WorkAtHome': % working at home
 - 'MeanCommuteMean': commute time (minutes)
 
-## Crime
+### Crime
 - 'FELONY': Number of felony crimes in the taxi zone
 - 'VIOLATION': Number of violation crimes in the taxi zone
 - 'MISDEMEANOR': Number of misdemeanor crimes in the taxi zone
 
-## Transportation
+### Transportation
 - 'subway': Number of subway entrances
 - 'bus': Number of bus stops
 
-## Education
+### Education
 - 'sat': Average score of SAT reading, math, and writing.
 
-## Parking
+### Parking
 - 'meter': Number of merter parking.
 - 'parkinglot': Area of parking lot.
 
-## Potential Datasets
+### Potential Datasets
 - BBL
 - Park
 - Parking Regulation Locations and Signs
