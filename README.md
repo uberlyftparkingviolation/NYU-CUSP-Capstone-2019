@@ -1,4 +1,11 @@
 # NYU-CUSP-Capstone-2019
+- This is one of the capstone projects of NYU CUSP 2019. Our topic is: Does Uber/Lyft reduce parking violations in NYC?
+- Group member: [Junjie Cai](jc9033@nyu.edu), [Junru Lu](lj1230@nyu.edu), [Pranay Anchan](pya209@nyu.edu), [Shijia Gu](shijia.gu@hotmail.com) and [Yuxuan Wang](jasonwang1031@gmail.com)
+- Please refer to our website for more [visualizations](http://uberlyftparkingviolation.github.io/)
+
+# Problem Definition
+- The fast expansion of Uber and Lyft result in people suspecting these companies' effect on our urban system, for example, on public transportation and city congestion. However, due to the lack of open data and scientific research, most of its influence has not been proven yet.
+- This capstone project aims to explore one potential Uber/Lyft’s impact: whether daily Uber/Lyft trips affect parking violations. NYC daily Uber/Lyft trip and parking ticket data are collected and correlated by taxi cab zone. Three technical models, Fixed Effects, Difference in Difference (DID), and Bayesian Network, are applied on the prepared data. The results of these models show the negative correlation and causal effect between the number of Uber/Lyft trips and parking tickets, suggesting Uber/Lyft help in reducing parking violations in NYC. Given the controversial issues around TNC, this capstone project can assisting in understanding impact of Uber/Lyft and offer policy insight to the TNC regulation.
 
 # Notebooks
 - [ETL1_data collection.ipynb](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/ETL1_data%20collection.ipynb): Developed a pipeline to collect all the 42-month FHV and 6-year parking ticket datasets.
