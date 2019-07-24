@@ -5,8 +5,7 @@
 - Please refer to our website for more [visualizations](http://uberlyftparkingviolation.github.io/)
 
 # Introduction
-- This capstone project aims to explore one potential Uber/Lyft’s impact: whether daily Uber/Lyft trips affect parking violations. NYC daily Uber/Lyft trip and parking ticket data are collected and correlated by taxi cab zone. Three technical models, Fixed Effects, Difference in Difference, and Bayesian Network, are applied on the prepared data. The results of these models show the negative correlation and causal effect between the number of Uber/Lyft trips and parking tickets, suggesting Uber/Lyft help in reducing parking violations in NYC. Given the controversial issues around TNC, this capstone project can assisting in understanding impact of Uber/Lyft and offer policy insight to the TNC regulation.
-- [Full report](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Final_Paper.pdf)
+- This capstone project aims to explore one potential Uber/Lyft’s impact: whether daily Uber/Lyft trips affect parking violations. NYC daily Uber/Lyft trip and parking ticket data are collected and correlated by taxi cab zone. Three technical models, Fixed Effects, Difference in Difference, and Bayesian Network, are applied on the prepared data. The results of these models show the negative correlation and causal effect between the number of Uber/Lyft trips and parking tickets, suggesting Uber/Lyft help in reducing parking violations in NYC. Given the controversial issues around TNC, this capstone project can assisting in understanding impact of Uber/Lyft and offer policy insight to the TNC regulation. ([Full report](https://github.com/uberlyftparkingviolation/NYU-CUSP-Capstone-2019/blob/master/Final_Paper.pdf))
 
 # Usage
 ## Step 1: Data Collection
